@@ -1,8 +1,8 @@
-from scripts.fetchData import *
-from scripts.feature_selection import *
+from fetchData import *
+from feature_selection import *
 from config import *
-from scripts.Evaluation import *
-from scripts.register_model import *
+from Evaluation import *
+from register_model import *
 
 #src_file_path=src_file_path
 file_path=r"dbfs:/FileStore/tables/creditcard.csv"
