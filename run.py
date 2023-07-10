@@ -10,7 +10,6 @@ pandas_df = spark.read.csv(file_path, header=True, inferSchema=True)
 df = pandas_df.toPandas()
 #df=read_data(src_file_path)
 #print(df.head())
-
 X,y=seperate_d_I_values(df)
 
 import mlflow
